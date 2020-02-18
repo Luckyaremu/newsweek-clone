@@ -1,369 +1,367 @@
 :root {
-    --main-bg-color: #f72210;
-  }
-  
-  body {
-    background-color: #f4f5f6;
-    box-sizing: border-box;
-  }
-  
-  .redbackground-header {
-    background: var(--main-bg-color);
-  }
-  
-  header {
-    color: white;
-  }
-  
-  .header-date,
-  .header-subscribe {
-    position: relative;
-  }
-  
-  .brand svg {
-    fill: white;
-    height: 70px;
-  }
-  
-  .header-date div {
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .header-row {
-    border-bottom: 1px solid #e8e8e8;
-  }
-  
-  .content {
-    max-width: 1310px;
-  }
-  
-  .signin {
-    font-weight: bolder;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    padding: 3px 3px;
-    position: absolute;
-    bottom: 0;
-    right: 170px;
-  }
-  
-  .signin:hover {
-    color: rgb(100, 87, 87);
-    text-decoration: none;
-  }
-  
-  .subscribe {
-    font-weight: bolder;
-    color: var(--main-bg-color);
-    text-transform: uppercase;
-    padding: 2px 13px;
-    position: absolute;
-    bottom: 0;
-    right: 40px;
-  }
+  --main-bg-color: #f72210;
+}
 
-  .menu-icon {
-    position: absolute;
-    right: 4px;
-    bottom: -10px;
-    font-size: 30px;
-    color: #eee;
-  }
+body {
+  background-color: #f4f5f6;
+  box-sizing: border-box;
+}
 
-  .subscribe:hover {
-    text-decoration: none;
-    color:  rgb(100, 87, 87);
-  }
-  
-  .nav-item input {
-    width: 70px;
-    border: none;
-  }
-  
-  .nav-links {
-    letter-spacing: -0.6px;
-    color: black;
-    font-weight: bolder;
-    line-height: 28px;
-    font-size: 21px;
-  }
-  
-  .nav-links:hover {
-    color: red;
-    text-decoration: none;
-  }
-  
-  .ul-nav {
-    width: 100%;
-    font-family: "Roboto Condensed", sans-serif;
-    justify-content: space-around;
-  }
-  
+.redbackground-header {
+  background: var(--main-bg-color);
+}
 
-  /* end of nav */
-  .section-header {
-    text-transform: uppercase;
-    color: #666;
-    font-size: 16px;
-  }
-  
-  .descriptions {
-    padding: 10px;
-    background: #eee;
-    text-align: center;
-    text-transform: uppercase;
-    position: absolute;
-    bottom: -16px;
-  }
-  
-  .card div {
-    position: relative;
-  }
-  
-  .main-link {
-    color: var(--main-bg-color);
-    font-weight: bolder;
-  }
-  
-  .main-link:hover {
-    text-decoration: none;
-    color: var(--main-bg-color);
-  }
-  
-  .card-title-link {
-    color: black;
-    font-weight: bolder;
-  }
-  
-  .card-title-link:hover {
-    color: black;
-    font-weight: bolder;
-    text-decoration-color: var(--main-bg-color);
-  }
-  
-  .card-body {
-    padding: 1rem 0;
-  }
-  
-  .card {
-    border: none;
-  }
-  
-  .card-bottom-title-link {
-    color: black;
-    font-weight: bolder;
-    font-size: 18px;
-  }
-  
-  .card-bottom-title-link:hover {
-    color: var(--main-bg-color);
-    text-decoration: none;
-  }
-  
-  .opinion-info {
-    padding: 10px 20px;
-  }
-  
-  .card-btm-title {
-    border: 1px solid lightgrey;
-    border-left: 0;
-    border-right: 0;
-  }
+header {
+  color: white;
+}
 
-  .opinion-img-2 {
-    height: 100px;
-  }
-  
-  .opinion-info a {
-    font-size: 1rem;
-    line-height: 20px;
-  }
-  
-  .latest-info{
-    padding: 10px 20px;
-  }
-  
-  .latest-info a{
-    font-size: 1rem;
-    line-height: 20px;
-  }
+.header-date,
+.header-subscribe {
+  position: relative;
+}
 
-  .latest-img-2{
-    width: 100%;
-    height: 100px;
-  }
+.brand svg {
+  fill: white;
+  height: 70px;
+}
 
-  .magazine-logo{
-      height: 10%;
-  }
-  .card-text {
-    font-size: 14px;
-  }
+.header-date div {
+  position: absolute;
+  bottom: 0;
+}
 
-  .bg-light{
-        height: 8%;
-  }
+.header-row {
+  border-bottom: 1px solid #e8e8e8;
+}
 
-  .border-top-grey {
-    border-top: 2px solid #eff1f3;
-  }
-  
-  .border-bottom-grey {
-    border-bottom: 2px solid #eff1f3;
-  }
-  
-  .border-right-grey {
-    border-right: 2px solid #eff1f3;
-  }
-  
-  .border-all-grey {
-    border: 2px solid #eff1f3;
-  }
-  
-  .bg-red {
-    background-color: #f72210 !important;
-  }
-  
-  
+.content {
+  max-width: 1310px;
+}
+
+.signin {
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 3px 3px;
+  position: absolute;
+  bottom: 0;
+  right: 170px;
+}
+
+.signin:hover {
+  color: rgb(100, 87, 87);
+  text-decoration: none;
+}
+
+.subscribe {
+  font-weight: bolder;
+  color: var(--main-bg-color);
+  text-transform: uppercase;
+  padding: 2px 13px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.menu-icon {
+  position: absolute;
+  right: 4px;
+  bottom: -10px;
+  font-size: 30px;
+  color: #eee;
+}
+
+.subscribe:hover {
+  text-decoration: none;
+  color: rgb(100, 87, 87);
+}
+
+.nav-item input {
+  width: 70px;
+  border: none;
+}
+
+.nav-links {
+  letter-spacing: -0.6px;
+  color: black;
+  font-weight: bolder;
+  line-height: 28px;
+  font-size: 21px;
+}
+
+.nav-links:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.ul-nav {
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: space-around;
+}
+
+.section-header {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 16px;
+}
+
+.descriptions {
+  padding: 10px;
+  background: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -16px;
+}
+
+.card div {
+  position: relative;
+}
+
+.main-link {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.main-link:hover {
+  text-decoration: none;
+  color: var(--main-bg-color);
+}
+
+.card-title-link {
+  color: black;
+  font-weight: bolder;
+}
+
+.card-title-link:hover {
+  color: black;
+  font-weight: bolder;
+  text-decoration-color: var(--main-bg-color);
+}
+
+.card-body {
+  padding: 1rem 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-bottom-title-link {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.card-bottom-title-link:hover {
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+
+.opinion-info {
+  padding: 10px 20px;
+}
+
+.card-btm-title {
+  border: 1px solid lightgrey;
+  border-left: 0;
+  border-right: 0;
+}
+
+.opinion-img-2 {
+  height: 100px;
+}
+
+.opinion-info a {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.latest-info {
+  padding: 10px 20px;
+}
+
+.latest-info a {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.latest-img-2 {
+  width: 100%;
+  height: 100px;
+}
+
+.magazine-logo {
+  height: 10%;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.bg-light {
+  height: 8%;
+}
+
+.border-top-grey {
+  border-top: 2px solid #eff1f3;
+}
+
+.border-bottom-grey {
+  border-bottom: 2px solid #eff1f3;
+}
+
+.border-right-grey {
+  border-right: 2px solid #eff1f3;
+}
+
+.border-all-grey {
+  border: 2px solid #eff1f3;
+}
+
+.bg-red {
+  background-color: #f72210 !important;
+}
+
 .bottom-title {
   display: none;
 }
-  
-  .text-red,
-  .text-red:hover {
-    color: #f72210;
-  }
-  
-  .medium-text {
-    font-size: 20px;
-  }
-  
-  .big-text {
-    font-size: 25px;
-    list-style: none;
+
+.text-red,
+.text-red:hover {
+  color: #f72210;
+}
+
+.medium-text {
+  font-size: 20px;
+}
+
+.big-text {
+  font-size: 25px;
+  list-style: none;
+}
+
+.d-flex,
+.d-flex ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.low-text {
+  font-size: 17px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.big-border {
+  border-top: 15px solid #f72210;
+  border-left: 15px solid transparent;
+  margin-top: -17px;
+}
+
+.red-btn {
+  border: none;
+  background-color: white;
+  color: #f72210;
+  padding: 4px 10px 4px 12px;
+}
+
+.light-btn {
+  border: none;
+  scroll-padding-right: 0;
+  padding: 4px 15px 4px 12px;
+}
+
+.dark-button {
+  border: none;
+  color: white;
+}
+
+.center-content {
+  display: grid;
+  justify-items: center;
+}
+
+.low-background {
+  background-color: rgba(252, 252, 252, 0.9);
+  bottom: 0;
+  padding: 5px 20px;
+  width: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.floating-image {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.img-box {
+  width: 36%;
+}
+
+.bg-image-box {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) center center / cover no-repeat;
+  float: left;
+  width: 48%;
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.half-height {
+  height: 86.5%;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 1.5rem !important;
   }
 
-  .d-flex,
-  .d-flex ul {
-    list-style: none;
-    text-decoration: none;
-  } 
-  
-  .low-text {
-    font-size: 17px;
+  h4 {
+    font-size: 2.5rem !important;
   }
-  
-  .small-text {
-    font-size: 14px;
+
+  h5 {
+    font-size: 1.7rem !important;
   }
-  
-  .big-border {
-    border-top: 15px solid #f72210;
-    border-left: 15px solid transparent;
-    margin-top: -17px;
+
+  h6 {
+    font-size: 1.5rem !important;
   }
-  
-  .red-btn {
-    border: none;
-    background-color: white;
-    color: #f72210;
-    padding: 4px 10px 4px 12px;
+
+  .centered-box {
+    width: 40%;
+    margin: auto !important;
   }
-  
-  .light-btn {
-    border: none;
-    scroll-padding-right: 0;
-    padding: 4px 15px 4px 12px;
+
+  .img-box img {
+    width: 270px;
+    height: 327px;
   }
-  
-  .dark-button {
-    border: none;
-    color: white;
-  }
-  
-  .center-content {
-    display: grid;
-    justify-items: center;
-  }
-  
-  .low-background {
-    background-color: rgba(252, 252, 252, 0.9);
-    bottom: 0;
-    padding: 5px 20px;
-    width: auto;
-  }
-  
-  .full-width {
-    width: 100%;
-  }
-  
-  .floating-image {
-    position: absolute;
-    top: 13px;
-    left: 80px;
-  }
-  
-  .img-box {
-    width: 36%;
-  }
-  
+
   .bg-image-box {
-    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) center center / cover no-repeat;
-    float: left;
-    width: 48%;
+    width: 30%;
     height: 100%;
-  }
-  
-  .full-height {
-    height: 100%;
-  }
-  
-  .half-height {
-    height: 86.5%;
   }
 
-  
-  @media only screen and (max-width: 991px) {
-    body {
-      font-family: 'Roboto Condensed', sans-serif !important;
-      font-size: 1.5rem !important;
-    }
-  
-    h4 {
-      font-size: 2.5rem !important;
-    }
-  
-    h5 {
-      font-size: 1.7rem !important;
-    }
-  
-    h6 {
-      font-size: 1.5rem !important;
-    }
-  
-    .centered-box {
-      width: 40%;
-      margin: auto !important;
-    }
-  
-    .img-box img {
-      width: 270px;
-      height: 327px;
-    }
-    
-    .bg-image-box {
-      width: 30%;
-      height: 100%;
-    }
-  
-    .newsletter-box {
-      width: 30%;
-      margin: auto;
-    }
-  
-    .newsletter-box img {
-      width: 15%;
-      height: 15%;
-    }
+  .newsletter-box {
+    width: 30%;
+    margin: auto;
+  }
+
+  .newsletter-box img {
+    width: 15%;
+    height: 15%;
+  }
+}
