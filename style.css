@@ -322,10 +322,19 @@ header {
   height: 86.5%;
 }
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 700px) {
+  .top-stories {
+    grid-template-areas:
+      'name'
+      'avatar'
+      'bio';
+  }
+}
+
+@media only screen and (max-width: 812px) {
   body {
     font-family: 'Roboto Condensed', sans-serif !important;
-    font-size: 1.5rem !important;
+    font-size: 3.5rem !important;
   }
 
   h4 {
@@ -360,8 +369,61 @@ header {
     margin: auto;
   }
 
+  .sponsored,
+  .border {
+    align-items: center;
+  }
+
+  .border img {
+    width: 500px;
+  }
+
+  .sponsored-div {
+    width: 400px;
+  }
+
+  .news-letter-div {
+    width: 700px;
+    align-items: center;
+  }
+
+  .body-size {
+    width: 700px;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .more-story,
+  .opinion-div,
+  .more {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .more {
+    padding: 10px;
+  }
+
+  .more img {
+    height: 110px;
+    width: 100%;
+  }
+
   .newsletter-box img {
     width: 15%;
     height: 15%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .culture-section {
+    display: inline;
   }
 }

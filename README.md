@@ -1,6 +1,6 @@
 # newsweek-clone
 
-![screenshot]()
+![screenshot](img\screenshot.jpg)
 
 A clone of the beautifull newsweek page
 
@@ -11,7 +11,7 @@ A clone of the beautifull newsweek page
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://frosty-leavitt-b9b46e.netlify.com)
 
 ## Getting Started
 
@@ -54,8 +54,8 @@ To get a local copy up and running follow these simple example steps.
 Aremu Lucky
 
 - Github: [@githubhandle](https://github.com/Luckyaremu)
-- Twitter: [@twitterhandle]()
-- Linkedin: [linkedin]()
+- Twitter: [@twitterhandle](@luckyaremu)
+- Linkedin: [linkedin](https://www.linkedin.com/in/lucky-aremu-24807a145/)
 
 ## 🤝 Contributing
 
