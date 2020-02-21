@@ -1,6 +1,6 @@
 > Bootsrap newsweek design page
 
-![screenshot](img\screenshot.jpg)
+![screenshot](C:\Users\LUCKY\newsweek-clone\img\screenshot.jpg)
 
 A fully responsive clone of The newsweek Web homepage
 
