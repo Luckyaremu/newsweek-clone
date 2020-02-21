@@ -160,8 +160,48 @@ header {
   text-decoration: none;
 }
 
+div.more-img {
+  float: left;
+  padding: 0;
+}
+
+.more-img-2 {
+  height: 100px;
+}
+
+.more-info a {
+  font-size: 1rem;
+  line-height: 10px;
+}
+
+.more-img img {
+  padding-top: 9px;
+}
+
+.container-fluid.d-flex.more {
+  align-items: center;
+}
+
+div.more {
+  padding: 0;
+  margin: 0;
+}
+
+.img-latest {
+  padding-right: 10px;
+}
+
+.b-btm1 {
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+}
+
 .opinion-info {
   padding: 10px 20px;
+}
+
+.sections-header {
+  color: lightgray;
 }
 
 .card-btm-title {
@@ -310,6 +350,8 @@ header {
 .bg-image-box {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) center center / cover no-repeat;
   float: left;
+  min-width: 200px;
+  min-height: 200px;
   width: 48%;
   height: 100%;
 }
@@ -359,11 +401,6 @@ header {
     height: 327px;
   }
 
-  .bg-image-box {
-    width: 30%;
-    height: 100%;
-  }
-
   .newsletter-box {
     width: 30%;
     margin: auto;
@@ -375,7 +412,7 @@ header {
   }
 
   .border img {
-    width: 500px;
+    width: 450px;
   }
 
   .sponsored-div {
@@ -388,21 +425,25 @@ header {
   }
 
   .body-size {
-    width: 700px;
     padding: 0;
     margin: 0;
     font-size: 15px;
+    width: 100%;
   }
 
   .more-story,
   .opinion-div,
   .more {
     font-size: 20px;
-    width: 900px;
+    width: 100%;
   }
 
   .more {
     padding: 10px;
+  }
+
+  .card-text {
+    display: block;
   }
 
   .more img {
@@ -419,13 +460,64 @@ header {
     font-size: 30px;
   }
 
-  .card-text {
-    font-size: 20px;
+  .sponsored-img {
+    width: 50%;
   }
 
   .card-img-top {
     width: 100%;
     height: 50%;
+  }
+
+  .footer-div {
+    width: 100%;
+  }
+
+  .bg-image-box {
+    width: 100%;
+  }
+
+  .news-letter-p {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-middle {
+    width: 50px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .footer-div {
+    display: inline-block;
+  }
+
+  .small-text {
+    font-size: 10px;
+  }
+
+  .subscribe-header-buttom {
+    display: inline-block;
+  }
+
+  .img-box {
+    width: 100%;
+  }
+
+  .sub-img,
+  .floating-image {
+    height: 100%;
+  }
+
+  .sub-p-div {
+    padding-top: 20px;
+  }
+
+  .news-letter {
+    display: inline-block;
   }
 }
 
@@ -442,5 +534,19 @@ header {
 
   .culture-section-div {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .subscribe {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .small-text {
+    font-size: 10px;
   }
 }

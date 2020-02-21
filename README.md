@@ -1,8 +1,8 @@
-# newsweek-clone
+> Bootsrap newsweek design page
 
-![screenshot](img\screenshot.jpg)
+![screenshot]()
 
-A clone of the beautifull newsweek page
+A fully responsive clone of The newsweek Web homepage
 
 ## Built With
 
@@ -11,14 +11,11 @@ A clone of the beautifull newsweek page
 
 ## Live Demo
 
-[Live Demo Link](https://frosty-leavitt-b9b46e.netlify.com)
+[Live Demo Link](https://frosty-leavitt-b9b46e.netlify.com/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
+Clone or fork this repo and play around with it as you wish
 
 ### Prerequisites
 
@@ -35,8 +32,6 @@ To get a local copy up and running follow these simple example steps.
 - Install Node JS and nmp(most recents versions)
 - Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev
 
-### Usage
-
 ### Run tests
 
 - Test the css by typing the command: npx stylelint .
@@ -48,14 +43,14 @@ To get a local copy up and running follow these simple example steps.
 - Upload all the files in the htdocs folder of your domain
 - Access your domain name in browser
 
-## Author
+## Authors
 
-👤 **Author**
+👤 **Author1**
 Aremu Lucky
 
 - Github: [@githubhandle](https://github.com/Luckyaremu)
 - Twitter: [@twitterhandle](@luckyaremu)
-- Linkedin: [linkedin](https://www.linkedin.com/in/lucky-aremu-24807a145/)
+- Linkedin: [linkedin]()
 
 ## 🤝 Contributing
 
@@ -69,6 +64,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [news week](https://www.newsweek.com/)
+- [Bootstrap](https://www.newsweek.com/)
 
 ## 📝 License
