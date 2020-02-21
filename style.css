@@ -352,7 +352,7 @@ div.more {
   float: left;
   min-width: 200px;
   min-height: 200px;
-  width: 48%;
+  width: 100px;
   height: 100%;
 }
 
@@ -507,6 +507,10 @@ div.more {
     width: 100%;
   }
 
+  .position-relative {
+    height: 350px;
+  }
+
   .sub-img,
   .floating-image {
     height: 100%;
@@ -550,3 +554,13 @@ div.more {
     font-size: 10px;
   }
 }
+
+/* @media only screen and (min-width: 800px) {
+  .hide-p {
+    display: none;
+  }
+
+  .subscribe-div {
+    width: 100%;
+  }
+} */
