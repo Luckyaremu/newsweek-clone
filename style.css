@@ -1,6 +1,7 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -10,7 +11,7 @@
 body {
   background-color: #f4f5f6;
   box-sizing: border-box;
-  width: 100%;
+  width: 98%;
 }
 
 .redbackground-header {
@@ -391,6 +392,7 @@ div.more {
   body {
     font-family: 'Roboto Condensed', sans-serif !important;
     font-size: 2.5rem !important;
+    width: 98%;
   }
 
   h4 {
