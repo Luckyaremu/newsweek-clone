@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --main-bg-color: #f72210;
 }
@@ -5,6 +10,7 @@
 body {
   background-color: #f4f5f6;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .redbackground-header {
@@ -222,16 +228,6 @@ div.more-img {
   width: 100%;
 }
 
-.img-background {
-  width: 70px;
-  height: 52px;
-  display: block;
-  bottom: 0;
-  line-height: 58px;
-  text-indent: 5px;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-}
-
 .floating-image {
   position: absolute;
   top: 13px;
@@ -331,7 +327,7 @@ div.more {
 }
 
 .card-text {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .bg-light {
@@ -394,7 +390,7 @@ div.more {
 @media only screen and (max-width: 700px) {
   body {
     font-family: 'Roboto Condensed', sans-serif !important;
-    font-size: 3.5rem !important;
+    font-size: 2.5rem !important;
   }
 
   h4 {
@@ -415,7 +411,7 @@ div.more {
   }
 
   .img-box img {
-    width: 270px;
+    width: 100%;
     height: 327px;
   }
 
@@ -427,14 +423,11 @@ div.more {
   .sponsored,
   .border {
     align-items: center;
+    width: 100%;
   }
 
   .border img {
-    width: 450px;
-  }
-
-  .sponsored-div {
-    width: 400px;
+    width: 100%;
   }
 
   .news-letter-div {
@@ -475,11 +468,19 @@ div.more {
   }
 
   .card-title-link {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .sponsored-img {
-    width: 50%;
+    width: 30%;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .text-dark {
+    font-size: 20px;
   }
 
   .card-img-top {
@@ -492,7 +493,7 @@ div.more {
   }
 
   .bg-image-box {
-    width: 100%;
+    width: 90%;
   }
 
   .news-letter-p {
@@ -576,5 +577,37 @@ div.more {
 @media only screen and (max-width: 750px) {
   .sub-div {
     display: inline;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .card-body {
+    font-size: 10px;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sponsored,
+  .border {
+    align-items: center;
+    width: 100%;
+  }
+
+  .border img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .sub-div {
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .img-box img {
+    width: 150px;
+    height: 327px;
   }
 }
